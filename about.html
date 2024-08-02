@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:768px)" href="mobile.css">
+    <style>
+        /** {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.7em;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        h1,
+        h2,
+        h3 {
+            padding-bottom: 20px;
+        }
+
+
+        .container {
+            max-width: 1100px;
+            padding: 0 20px;
+            overflow: auto;
+            margin: auto;
+        }
+
+        #navbar {
+            background: #333;
+            color: white;
+            overflow: auto;
+        }
+
+        #navbar a {
+            color: #fff;
+        }
+
+        #logo {
+            float: left;
+            padding-top: 20px;
+        }
+
+        #navbar ul {
+            float: right;
+            list-style: none;
+        }
+
+        #navbar ul li {
+            float: left;
+        }
+
+        #navbar ul li a {
+            display: block;
+            padding: 20px;
+            text-align: center;
+        }
+
+        #navbar ul li a:hover,
+        #navbar ul li a.current {
+            background: #444;
+            color: #f7c08a;
+        }
+
+        #box {
+            height: 600px;
+            height: 420px;
+        }
+
+        #content {
+            width: 50%;
+            float: left;
+            padding: 69px;
+        }
+
+        #img {
+            width: 50%;
+            float: right;
+        }
+
+        #img img {
+            height: 357px;
+            width: 446px;
+            margin: 22px 120px;
+            border-radius: 177px;
+        }
+
+        .info {
+            height: 420px;
+        }
+
+        .new {
+            color: #f7c08a;
+        }
+
+        .head {
+            font-size: 37px;
+            padding-bottom: 21px;
+        }
+
+        #about_page {
+            color: #fff;
+            padding: 40px;
+            background: url('./img/about_reviews_bg.jpg') no-repeat center center/cover;
+        }
+
+        #container2 {
+            display: inline-block;
+        }
+
+        .reviews {
+            padding: 20px;
+            overflow: hidden;
+            background: #f7c08a;
+            margin-bottom: 30px;
+            color: black;
+            border-radius: 12px;
+            opacity: 0.9;
+        }
+
+        #head2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 34px;
+        }
+
+        .guest_icon{
+            width: 100px;
+            float: left;
+            margin-right: 20px;
+            border-radius: 50%;
+        }
+
+        .para{
+            margin-top: 21px;
+        }
+
+        #guests2{
+            margin-bottom: 110px;
+        }
+
+        #footer {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }*/
+    </style>
+</head>
+
+<body>
+    <header id="head">
+        <nav id="navbar">
+            <div class="container">
+                <h1 id="logo"><a href="home.html">HBT</a></h1>
+                <ul id="mylist">
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a class="current" href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="info">
+        <div id="box">
+            <div id="content" class="box1">
+                <h1 class="head"><span class="new">About</span> Our Hotel</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat eos perferendis porro. Est, ipsa et?
+                    Eius accusamus repellendus quis dolorem reprehenderit voluptatum nobis neque officia voluptatem
+                    facilis deserunt nihil dolor laudantium dolores, explicabo unde, tempore maiores voluptates
+                    excepturi rem error vero numquam dolorum veritatis? Harum modi fugit distinctio doloremque dicta!
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus accusamus ullam distinctio
+                    earum labore voluptas, omnis, optio commodi voluptatum totam illo. Sequi natus dolorum magni quia,
+                    incidunt debitis consequuntur id.</p>
+            </div>
+            <div id="img" class="box1">
+                <img src="./img/about_buildiing.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="about_page">
+        <div id="container2">
+            <h2 id="head2">What Our Guests Say</h2>
+            <div id="guests" class="reviews">
+                <img src="./img/male_picture1.jpg" alt="" class="guest_icon">
+                <p class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad perferendis aspernatur necessitatibus
+                    quo illum quod in ut. Debitis quae molestias, repudiandae reiciendis ullam minus asperiores
+                    doloremque sint cum laborum magnam!</p>
+            </div>
+            <div id="guests2" class="reviews">
+                <img src="./img/female_picture2.jpg" alt="" class="guest_icon">
+                <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas accusamus, labore error optio
+                    obcaecati, nulla sapiente consectetur repudiandae deleniti impedit laborum vel quas. Assumenda,
+                    perferendis culpa ex mollitia dolore quasi?</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <p>Hotel BT &COPY; 2019, All Rights Reserved</p>
+    </footer>
+</body>
+
+</html>
